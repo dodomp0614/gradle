@@ -1,0 +1,7 @@
+###########################
+## Gradle Project config ##
+###########################
+
+gradle init --dsl =groovy --type=java-application \
+	--test-framework=junit \
+	--package=com.test --project-name=test-docker-spring-boot
